@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwport">
+        <title>Eventlister</title>
+        <style>
+            ol{
+                height: 200px;
+                overflow-y:scroll;
+                width: 150px;
+            }body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color:lightgray
+            }
+            button{
+                cursor: pointer;
+               padding: 10px;
+               margin-left: 6px;
+            }
+            .watch{
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+                width: 250px;
+                padding: 20px;
+                background-color: #fff;
+            }
+            h1{
+                font-size: 50px;
+                font-weight: 2000;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="watch">
+            <h1>00:00:00:00</h1>
+            <button class="start">start</button>
+            <button class="stop">stop</button>
+            <button class="reset">reset</button>
+            <button class="lap">lap</button>
+            <ol>
+
+            </ol>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
